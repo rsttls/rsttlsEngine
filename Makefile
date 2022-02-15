@@ -34,7 +34,7 @@ compile:
 build: $(TARGET)
 
 debug:
-	make all DEBUG=1
+	make compile DEBUG=1
 
 clean:
 	rm -rf build
